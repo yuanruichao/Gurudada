@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bg {
+	position: absolute;
+	background-image: url(image/feature_1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 200vh;
+	display: block;
+	margin: auto;
+	
+	}

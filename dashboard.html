@@ -1,0 +1,1104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GuruDaDa</title>
+<link href="style/stylesheet_db.css" type="text/css" rel="stylesheet" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   <script>
+$(document).ready(function(){
+  $("#lsv_4").click(function(){
+    $("#amenities").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#lsv_5").click(function(){
+    $("#listing_info").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#list_your_place").click(function(){
+    $("#list_place_catalog").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#find_a_place").click(function(){
+    $("#find_place_catalog").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#lsv_6").click(function(){
+    $("#household_description").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#dashboard").click(function(){
+    $("#dashboard_content").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#lsv_1").click(function(){
+    $("#calendar").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#lsv_2").click(function(){
+    $("#pricing").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#lsv_3").click(function(){
+    $("#photos").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#lsv_8").click(function(){
+    $("#location").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#lsv_9").click(function(){
+    $("#renting_type").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#lsv_10").click(function(){
+    $("#calendar_r").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#lsv_11").click(function(){
+    $("#budget").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#lsv_12").click(function(){
+    $("#amenities_r").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#lsv_13").click(function(){
+    $("#self_description").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#lsv_14").click(function(){
+    $("#roomate_preferences_r").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#profile").click(function(){
+    $("#profile_content").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#inbox").click(function(){
+    $("#inbox_content").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $("#account").click(function(){
+    $("#account_content").fadeToggle();
+  });
+});
+<!--Jquerry Test Starts-->
+
+<!--Jquerry Test Ends-->
+</script>
+
+
+</head>
+
+<body>
+<div class="page-content">
+  <div id="strap_horizotal">
+  <div class="button_h" id="dashboard">Dashboard</div>
+  <div class="button_h" id="profile">Profile</div>
+  <div class="button_h" id="inbox">Inbox</div>
+  <div class="button_h" id="account">Account</div>
+  <div class="button_h" id="list_your_place">List Your Place</div>
+  <div class="button_h" id="find_a_place">Find A Place</div>
+  </div>
+  <div id="logo"><span>Guru</br>搭搭</span></div>
+  <div id="time"></br>Saturday</br>August 16, 2014</div>
+<!-- 操作界面 开始--><div id="dashboard_content">
+ <div id="profile_pic_box">
+ <ul>
+ <li id="profile_pic_container"></li>
+ <li id="profile_pic_box_button"><a class="profile_font">View Profile</a></br>
+ <a class="profile_font">Edit Profile</a></li>
+ </ul>
+ </div>
+ <div id="organization_logo_box"> <ul>
+ <li id="organization_logo_container"></li>
+ <li id="profile_pic_box_button"><a class="profile_font">View Profile</a></br>
+ <a class="profile_font">Edit Profile</a></li>
+ </ul></div>
+ <div id="verification_box"> <ul>
+ <li id="verification_title">Verification|安全认证</li>
+ <li id="profile_pic_box_button"><a class="profile_font">Identity Verification</a></br>
+ <a class="profile_font">Document Verification</a></br><a class="profile_font">Payment Verification</a></li>
+ </ul></div>
+ <div id="market_rental_index">market rental index</div> 
+ <div id="listing_column">Listing|放租<div id="listing_dropdown"></div></div>
+ <div id="finding_column">Looking|求租<div id="finding_dropdown"></div></div>
+ </div><!-- 操作界面 结束-->
+ 
+<!-- 个人资料 开始--><div id="profile_content">Profile
+<div id="profile_photos">Profile</div>
+</div><!-- 个人资料 结束--> 
+<!-- 收件箱 开始--><div id="inbox_content">Inbox
+<div id="profile_photos">Inbox</div>
+</div><!-- 收件箱 结束--> 
+<!-- 账户设定 开始--><div id="account_content">Account
+<div id="profile_photos">Account</div>
+</div><!-- 账户设定 结束--> 
+<!-- 竖列选项栏 开始-->
+  <div id="list_strap_vertical">
+  <ul id="list_place_catalog">
+  <li class="button_v" id="lsv_5">Listing Info|出租信息</li>
+  <li class="button_v" id="lsv_1">Calendar|出租日期</li>
+  <li class="button_v" id="lsv_2">Pricing|价格</li>
+  <li class="button_v" id="lsv_3">Photos|相片</li>
+  <li class="button_v" id="lsv_4">Amenities|设施</li>
+  <li class="button_v" id="lsv_6">Household Description|现居住成员状况</li>
+  </ul>
+
+  <ul class="" id="find_place_catalog">
+  <li class="button_v" id="lsv_8">Location|求租地区x</li>
+  <li class="button_v" id="lsv_9">Renting Type|求租类型x</li>
+  <li class="button_v" id="lsv_10">Calendar|求租日期x</li>
+  <li class="button_v" id="lsv_11">Budget|价格预算x</li>
+  <li class="button_v" id="lsv_12">Amenities|设施要求x</li>
+  <li class="button_v" id="lsv_13">Applicant Overview|申请人信息</li>
+  </ul></div>
+<!-- Lisitng Info 出租描述 开始-->
+<div class="form_page" id="listing_info">
+<div class="form_page_section">
+  <div class="form_title"><span>Location</br>地点</span></br>Your exact address is private and only shared with guests after a reservation is confirmed.</div>
+  <div class="form_container"></br></br></br></br></br></br></br></br></br>
+  </div></div>
+  
+  <div class="form_page_section">
+  <div class="form_title"><span>Listing Info</br>出租信息</span></br>Basic information about your listing.</div>
+  <div class="form_container"><ul class="list_layout">
+  <li>Home Type|出租类型</br><input list="home_type">
+       <datalist id="home_type">
+       <option value="Apartment|公寓楼">
+       <option value="House|别墅">
+       <option value="Dorm|宿舍">
+       </datalist></li>
+    <li>Apartment|几房几厅几卫</br><input list="home_type">
+       <datalist id="home_type">
+       <option value="Apartment|公寓楼">
+       <option value="House|别墅">
+       <option value="Dorm|宿舍">
+       </datalist></li>
+  <li>Floor|楼层</br><input list="floor">
+       <datalist id="floor">
+       <option value="Basement">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+       <option value="5">
+       <option value="6">
+       <option value="7">
+       <option value="8">
+       <option value="9">
+       <option value="10">
+       <option value="11">
+       <option value="12">
+       <option value="13">
+       <option value="14">
+       <option value="15">
+       <option value="16">
+       <option value="17">
+       <option value="18">
+       <option value="19">
+       <option value="20">
+       <option value="21">
+       <option value="22">
+       <option value="23">
+       <option value="24">
+       <option value="25+">
+       </datalist></li>
+   <li>Specify Room|具体房间</br><input list="room_type">
+       <datalist id="room_type">
+       <option value="Entire home|整套">
+       <option value="Private room|个人单间">
+       <option value="Shared room|共享一室">
+       </datalist></li>
+   <li style="display:none"><input list="room_use">
+       <datalist id="room_use">
+       <option value="Bedroom|卧室">
+       <option value="Living room|客厅">
+       <option value="Others|其它">
+       </datalist></li>
+   <li><input type="checkbox">Private Bathroom|出租部分专属卫生间</li>      
+   <li>Accommodates|允许居住人数</br><input list="Accommodates">
+       <datalist id="Accommodates">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+        <option value="5">
+       <option value="6+">
+       </datalist></li>
+   <li>Shared Room Current Occupancy|出租部分现居住人数</br><input list="c_occupancy">
+       <datalist id="c_occupancy">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+        <option value="5">
+       <option value="6+">
+       </datalist></li>
+    <li>Shared Room Maxium Addintional Occupancy|出租部分最多允许新室友</br><input list="m_occupancy">
+       <datalist id="m_occupancy">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+        <option value="5">
+       <option value="6+">
+       </datalist></li>
+   <li>Number of Beds|提供床位数</br><input list="beds">
+       <datalist id="beds">
+       <option value="0">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+       <option value="5+">
+       </datalist></li>
+  </div></div>
+  </div>  
+  <div class="form_page" id="amenities">
+    <div class="form_page_section">
+  <div class="form_title"><span>Room Amenities</br>出租部分设施</span></br>Common amenities at most  listings.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+   <li><input type="checkbox">TV|电视</li>
+   <li><input type="checkbox">Air Conditioning|空调</li>
+   <li><input type="checkbox">Heating|暖气</li>
+   <li><input type="checkbox">Internet|网络</li>
+   <li><input type="checkbox">Fire Place|壁炉</li>
+   <li><input type="checkbox">Storage|储物间</li>
+   <li><input type="checkbox">Balcony|阳台</li>
+   <li><input type="checkbox">Bed|床</li>
+   <li><input type="checkbox">Desk|书桌</li>
+   <li><input type="checkbox">Chair|座椅</li>
+   <li><input type="checkbox">Sofa|沙发</li>
+   <li><input type="checkbox">Private Bathroom|私人洗手间</li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>In-house Amenities</br>单元内设施</span></br>Common amenities at most listings.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+   <li><input type="checkbox">TV|电视</li>
+   <li><input type="checkbox">Air Conditioning|空调</li>
+   <li><input type="checkbox">Heating|暖气</li>
+   <li><input type="checkbox">Kitchen|厨房</li>
+   <li><input type="checkbox">Internet|网络</li>
+   <li><input type="checkbox">Fire Place|壁炉</li>
+   <li><input type="checkbox">Washer|洗衣机</li>
+   <li><input type="checkbox">Dryer|烘干机</li>
+   <li><input type="checkbox">Microwave|微波炉</li>
+   <li><input type="checkbox">Dishwasher|洗碗机</li>
+   <li><input type="checkbox">Stove|烤箱</li>
+   <li><input type="checkbox">Storage|储物间</li>
+   <li><input type="checkbox">Balcony|阳台</li>
+   <li><input type="checkbox">Hot Tub|按摩浴缸</li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Building Amenities</br>楼内设施</span><br>Building amenities your listing may offer.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+   <li><input type="checkbox">Elevator|电梯</li>
+   <li><input type="checkbox">Laundry Facilty|洗衣房</li>
+   <li><input type="checkbox">Doorman|门卫</li>
+   <li><input type="checkbox">Intercome|可视监控</li>
+   <li><input type="checkbox">Patio/Roof Garden|庭院/屋顶花园</li>
+   <li><input type="checkbox">Yard|绿地</li>
+   <li><input type="checkbox">Gym|健身房</li>
+   <li><input type="checkbox">Pool|游泳池</li>
+   <li><input type="checkbox">Spa|水疗中心</li>
+   <li><input type="checkbox">Basketball Courts|篮球场</li>
+   <li><input type="checkbox">Tennis Courts|网球场</li>
+   <li><input type="checkbox" id="1">Direct Parking Available|停车位</li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Home Safety</br>安全设施</span></br>Safety equipment for your home. <!--Smoke and carbon monoxide detectors will be required for most listings by the end of 2014. Eligible hosts can get them free on our Home Safety Page. Restrictions apply.--></div>
+  <div class="form_container"><ul class="list_layout" id="Home_Safety">
+   <li><input type="checkbox">Smoke Detector|烟感器</li>
+   <li><input type="checkbox">Carbon Monoxide Detector|煤气感应器</li>
+   <li><input type="checkbox">First Aid Kit| 急救箱</li>
+   <li><input type="checkbox">Safety Card|安全卡</li>
+   <li><input type="checkbox">Fire Extinguisher|灭火器</li>
+   <li><input type="checkbox">Intercome|可视监控</li>
+   <li><input type="checkbox">Wheelchair Accessible|残疾人设施</li>
+  </div></div>
+  </div>
+  <!-- Household Description 现居住成员状况 开始-->
+<div class="form_page" id="household_description">
+    <div class="form_page_section">
+  <div class="form_title"><span>Roommates Information</br>住客基本情况</span></br>Basic information about your roomates.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li>Total members|现居总人数</br><input list="total_members">
+       <datalist id="total_members">
+       <option value="0">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+       <option value="5">
+       <option value="6">
+       <option value="7">
+       <option value="8">
+       <option value="9">
+       <option value="10+">
+       </datalist></li>
+  <li>Age(s)|年龄分布</br><input list="ages_start">
+       <datalist id="ages_start">
+       <option value="Rather not to say|不愿透露"><option value="18"><option value="19"><option value="20"><option value="21"><option value="22">       
+       </datalist></br>-to-|-至-</br><input list="ages_end">
+       <datalist id="ages_end">
+       <option value="Rather not to say|不愿透露"><option value="18"><option value="19"><option value="20"><option value="21"><option value="22">       
+       </datalist></li>
+       
+  <li>Gender|性别及趋向</li>
+  <li><input type="checkbox">Straight male(s)|直男</li>
+  <li><input type="checkbox">Straight female(s)|直女</li>
+  <li><input type="checkbox">Gay male(s)|男同志</li>
+  <li><input type="checkbox">Lesbian(s)|蕾丝边</li>
+  <li><input type="checkbox">Bisexual(s)|双性恋</li>
+  <li><input type="checkbox">Rather not to say|暂不透露</li>      
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Occupation(s)</br>当前职业组成</span><br>Describe the tenants' occupation by checking the box.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li><input type="checkbox">Student|学生</li>
+  <li><input type="checkbox">Professional|上班</li>
+  <li><input type="checkbox">Traveler|旅行者</li>
+  <li><input type="checkbox">Visiting|探望者</li>
+  <li><input type="checkbox">Other|其他</li>
+  <li><input type="checkbox">Rather not to say|暂不透露</li>  
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Cleanliness</br>住客整洁度</span><br>Choose the level of how clean you are.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+     <li></br><input list="cleanliness">
+       <datalist id="cleanliness">
+       <option value="Rather not to say|不愿透露">
+       <option value="Clean freak|洁癖">
+       <option value="Quite clean|比较爱干净">
+       <option value="About Average|一般整洁">
+       <option value="A bit messy|相对杂乱">
+       <option value="Extremely messy|非常脏乱">
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Smoking</br>吸烟状况</span><br>The number of rooms and beds guests can access.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+     <li></br><input list="smoking">
+       <datalist id="smoking">
+       <option value="Rather not to say|不愿透露">
+       <option value="Non smoking|无吸烟者">
+       <option value="Outdoor smoking|室外吸烟">
+       <option value="Indoor smoking|室内吸烟">
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Children</br>儿童</span></br>Number of children in the place.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+   <li></br><input list="children">
+       <datalist id="children">
+       <option value="Rather not to say|不愿透露">
+       <option value="0">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+       <option value="5+">
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Family/Couple</br>家庭或情侣情况</span></br>Family/couple Info.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+       <li></br><input list="family_c">
+       <datalist id="family_c">
+       <option value="Rather not to say|不愿透露">
+       <option value="There's family/couple|已有家庭或情侣居住">
+       <option value="No family/couple|尚无家庭或情侣居住">
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Party/Event</br>聚会情况</span></br>Describe your in-house parties life.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+       <li></br><input list="party_c">
+       <datalist id="party_c">
+       <option value="Rather not to say|不愿透露">
+       <option value="Rarely|无或极少在家搞聚会">
+       <option value="Sometimes|有时会在家搞聚会">
+       <option value="Often|经常在家搞聚会">
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Pets</br>宠物</span></br>Number and information of your pets.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+       <li><input type="checkbox">No Pets|无宠物</li> 
+       <li><input type="checkbox">Dogs|狗</li>
+       <li><input type="checkbox">Cats|猫</li>
+       <li><input type="checkbox">Caged Pets|笼内宠物</li>
+       <li><input type="checkbox">Rather not to say|暂不透露</li> 
+  </div></div>
+  </div> 
+ <div class="form_page" id="listing_info">
+<div class="form_page_section">
+  <div class="form_title"><span>Location</br>地点</span></br>Your exact address is private and only shared with guests after a reservation is confirmed.</div>
+  <div class="form_container"></br></br></br></br></br></br></br></br></br>
+  </div></div>
+  
+  <div class="form_page_section">
+  <div class="form_title"><span>Listing Info</br>出租信息</span></br>Basic information about your listing.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li>Home Type|出租类型</br><input list="home_type">
+       <datalist id="home_type">
+       <option value="Apartment|公寓楼">
+       <option value="House|别墅">
+       <option value="Dorm|宿舍">
+       </datalist></li>
+  <li>Floor|楼层</br><input list="floor">
+       <datalist id="floor">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+       <option value="5">
+       <option value="6">
+       <option value="7">
+       <option value="8">
+       <option value="9">
+       <option value="10">
+       <option value="11">
+       <option value="12">
+       <option value="13">
+       <option value="14">
+       <option value="15">
+       <option value="16">
+       <option value="17">
+       <option value="18">
+       <option value="19">
+       <option value="20">
+       <option value="21">
+       <option value="22">
+       <option value="23">
+       <option value="24">
+       <option value="25+">
+       </datalist></li>
+   <li>Room Type|出租部分</br><input list="room_type">
+       <datalist id="room_type">
+       <option value="Entire home|整套">
+       <option value="Private room|个人单间">
+       <option value="Shared room|多人同室">
+       </datalist></li>
+   <li><input list="room_use">
+       <datalist id="room_use">
+       <option value="Bedroom|卧室">
+       <option value="Living room|客厅">
+       <option value="Others|其它">
+       </datalist></li>    
+   <li>Accommodates|出租部分允许居住人数</br><input list="Accommodates">
+       <datalist id="Accommodates">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+        <option value="5">
+       <option value="6+">
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Rooms and Beds</br>房间与床位</span><br>The number of rooms and beds guests can access.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li>Bedrooms|卧室数量</br><input list="bedrooms">
+       <datalist id="bedrooms">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+       <option value="5+">
+       </datalist></li>
+  <li>Beds|床位</br><input list="beds">
+       <datalist id="beds">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+       <option value="5">
+       <option value="6">
+       <option value="7">
+       <option value="8">
+       <option value="9">
+       <option value="10+">
+       </datalist></li>
+   <li>Bathrooms|洗手间</br><input list="bathrooms">
+       <datalist id="bathrooms">
+       <option value="1">
+       <option value="1.5">
+       <option value="2">
+       <option value="2.5">
+       <option value="3">
+       <option value="3.5">
+       <option value="4">
+       <option value="4.5">
+       <option value="5+">
+       </datalist></li>
+
+  </div></div>
+  </div>
+<!-- Pricing 价格 开始-->
+<div class="form_page" id="pricing">
+    <div class="form_page_section">
+  <div class="form_title"><span>Rent</br>租金</span></br>The base price and default charging period.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li>美金$<input list="base_price">
+       <datalist id="base_price">
+       <option value="500"><option value="600"><option value="700"><option value="800"><option value="900">       
+       </datalist></br>/<input list="period">
+       <datalist id="period">
+       <option value="night|晚"><option value="week|周"><option value="month|月"><option value="year|年">       
+       </datalist></li>
+  </div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li>Rent Coverage|租金包括费用</br><input type="checkbox">Hot/Cold water|冷热水</li>
+  <li><input type="checkbox">Heating|暖气</li>
+  <li><input type="checkbox">Gas|炉灶天然气</li>
+  <li><input type="checkbox">Electricity|电费</li>
+  <li><input type="checkbox">Internet|网络</li>
+  <li><input type="checkbox">Cable|有线电视</li>
+  <li><input type="checkbox">All Inclusive|室内所有设施涉及费用全包</li>
+       <li>Payment Method|付费方式</br><input list="payment_method">
+       <datalist id="payment_method">
+       <option value="Everything upfront|入住前一次付清">
+       <option value="Day to day|每天">
+       <option value="Week to week|每星期">
+       <option value="Month to month|每月">
+       </datalist></li>
+    <li>Rent Prepaid|预付单位时间倍数</br><input list="month_amount">
+       <datalist id="month_amount">
+       <option value="1"><option value="2"><option value="3"><option value="4"><option value="5"> <option value="6">       
+       </datalist></li>  
+  </div>
+  </div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Security Deposit</br>押金</span></br>Deposit amount needed in case of damages coverage and other situations.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li>Fixed Amount|固定金额</br><input list="security_amount"></br>-or-
+       <datalist id="security_amount">
+       <option value="1000"><option value="1500"><option value="2000"><option value="2500">       
+       </datalist></li>
+  <li>Monthly Rent|月租倍数</br><input list="month_amount">
+       <datalist id="month_amount">
+       <option value="1"><option value="2"><option value="3"><option value="4"><option value="5"> <option value="6">       
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Other Fees</br>其他费用</span><br>Describe other types of fees.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li><input type="checkbox">Hot/Cold water|冷热水</li>
+  <li><input type="checkbox">Heating|暖气</li>
+  <li><input type="checkbox">Gas|炉灶天然气</li>
+  <li><input type="checkbox">Electricity|电费</li>
+  <li><input type="checkbox">Internet|网络</li>
+  <li><input type="checkbox">Cleaning Fee|清洁费</li>   
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Payment Method</br>付费方式</span><br>Describe your smolking policy.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+    <li><input type="checkbox">Application Fee|相关申请费???*</li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Total</br>总额</span></br>How much the applicant needs to pay before moving in.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+   <li>Automatic Caculation</br><input list="children_p">
+       <datalist id="children_p">
+       </datalist></li>
+  </div></div>
+  </div>
+<!-- Calendar 出租日期 开始-->
+<div class="form_page" id="calendar">
+    <div class="form_page_section">
+  <div class="form_title"><span>Availability</br>何时可租</span></br>When your listing is available.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li>Availability Pattern|出租习惯<input list="availability_type">
+       <datalist id="availability_type">
+       <option value="Always|一直可租"><option value="Sometimes|某些时段"><option value="One time|仅这次">
+       </datalist></br>日期<input list="period">
+       <datalist id="period">
+       <option value="night|晚"><option value="week|周"><option value="month|月"><option value="year|年">       
+       </datalist></li>
+  </div></div>
+  </div>
+<!-- Photos 相册 开始-->
+<div class="form_page" id="photos">
+<div class="form_page_section">
+  <div class="form_title"><span>Floor Plan</br>房型图</span></br>Pictures of the rented room.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li></br>Upload|上传<input list="availability_type">
+       <datalist id="availability_type">
+       <option value="Always|一直可租"><option value="Sometimes|某些时段"><option value="One time|仅这次">     
+       </datalist></li>
+  </div></div>
+    <div class="form_page_section">
+  <div class="form_title"><span>Room Photos</br>出租部分相片</span></br>Pictures of the rented room.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li></br>Upload|上传<input list="availability_type">
+       <datalist id="availability_type">
+       <option value="Always|一直可租"><option value="Sometimes|某些时段"><option value="One time|仅这次">     
+       </datalist></li>
+  </div></div>
+    <div class="form_page_section">
+  <div class="form_title"><span>Unit Photos</br>单元内相片</span></br>Pictures of the rented room.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li></br>Upload|上传<input list="availability_type">
+       <datalist id="availability_type">
+       <option value="Always|一直可租"><option value="Sometimes|某些时段"><option value="One time|仅这次">     
+       </datalist></li>
+  </div></div>
+      <div class="form_page_section">
+  <div class="form_title"><span>Building Photos</br>楼内相片</span></br>Pictures of the rented room.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li></br>Upload|上传<input list="availability_type">
+       <datalist id="availability_type">
+       <option value="Always|一直可租"><option value="Sometimes|某些时段"><option value="One time|仅这次">     
+       </datalist></li>
+  </div></div>
+   <div class="form_page_section">
+    <div class="form_title"><span>Neighborhood</br>社区</span></br>Pictures of the rented room.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li></br>Upload|上传<input list="availability_type">
+       <datalist id="availability_type">
+       <option value="Always|一直可租"><option value="Sometimes|某些时段"><option value="One time|仅这次">     
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+    <div class="form_title"><span>Other Photos</br>室友/幼童/宠物相片</span></br>Pictures of the rented room.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li></br>Upload|上传<input list="availability_type">
+       <datalist id="availability_type">
+       <option value="Always|一直可租"><option value="Sometimes|某些时段"><option value="One time|仅这次">     
+       </datalist></li>
+  </div></div>
+  </div>
+<!-- Find for place 12345求租 开始--------------------------------------------------------------------------------------------------->
+<div class="form_page" id="location">
+<div class="form_page_section">
+  <div class="form_title"><span>Location</br>地点？？？**check box of area name</span></br>Your exact address is private and only shared with guests after a reservation is confirmed.</div>
+  <div class="form_container"></br></br></br></br></br></br></br></br></br>
+  </div></div>
+  </div>
+<!-- Renting Type 求租描述 开始-->
+<div class="form_page" id="renting_type">
+<div class="form_page_section">
+  <div class="form_title"><span>Renting Purpose</br>求租目的</span></br>How many people are looking for rental.</div>
+  <div class="form_container"><ul class="list_layout">
+       </br></br><input list="renting_purpose">
+       <datalist id="renting_purpose">
+       <option value="Work">
+       <option value="Study">
+       <option value="Vacation">
+       </datalist></li>
+   </div></div> 
+<div class="form_page_section">
+  <div class="form_title"><span>Applicant(s) Number</br>求租人数</span></br>How many people are looking for rental.</div>
+  <div class="form_container"><ul class="list_layout">
+       </br></br><input list="applicant_number">
+       <datalist id="applicant_number">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+       <option value="5">
+       <option value="6+">
+       </datalist></li>
+   </div></div> 
+<div class="form_page_section">
+  <div class="form_title"><span>Room Type</br>求租部分</span></br>How many people are looking for rental.</div>
+  <div class="form_container"><ul class="list_layout">
+       <li><input type="checkbox">Entire home|整套</li>
+           <li>Bedrooms|几房几厅几卫</br><input list="home_type">
+       <datalist id="home_type">
+       <option value="Apartment|公寓楼">
+       <option value="House|别墅">
+       <option value="Dorm|宿舍">
+       </datalist></li>
+       <li><input type="checkbox">Private room|个人单间</li>
+          <li>Specify Room|具体房间<input list="room_use_r">
+       <datalist id="room_use_r">
+       <option value="Bedroom|卧室">
+       <option value="Living room|客厅">
+       <option value="Others|其它">
+       </datalist></li>
+          <li><input type="checkbox">Private Bathroom|出租部分专属卫生间</li>      
+       <li><input type="checkbox">Shared room|共享一室</li>
+      </div></div> 
+    <div class="form_page_section">
+  <div class="form_title"><span>Home Type</br>出租类型</span></br>Basic information about your listing.</div>
+  <div class="form_container"><ul class="list_layout">
+       <li><input type="checkbox">No Preference|无所谓</li> 
+       <li><input type="checkbox">Apartment|公寓楼</li>
+       <li><input type="checkbox">House|别墅</li>
+       <li><input type="checkbox">Dorm|宿舍</li> 
+   </div></div> 
+  </div>  
+  <div class="form_page" id="amenities_r">
+    <div class="form_page_section">
+  <div class="form_title"><span>Room Amenities</br>出租部分设施</span></br>Common amenities at most  listings.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+   <li><input type="checkbox">TV|电视</li>
+   <li><input type="checkbox">Air Conditioning|空调</li>
+   <li><input type="checkbox">Heating|暖气</li>
+   <li><input type="checkbox">Internet|网络</li>
+   <li><input type="checkbox">Fire Place|壁炉</li>
+   <li><input type="checkbox">Storage|储物间</li>
+   <li><input type="checkbox">Balcony|阳台</li>
+   <li><input type="checkbox">Bed|床</li>
+   <li><input type="checkbox">Desk|书桌</li>
+   <li><input type="checkbox">Chair|座椅</li>
+   <li><input type="checkbox">Sofa|沙发</li>
+   <li><input type="checkbox">Private Bathroom|私人洗手间</li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>In-house Amenities</br>单元内设施</span></br>Common amenities at most listings.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+   <li><input type="checkbox">TV|电视</li>
+   <li><input type="checkbox">Air Conditioning|空调</li>
+   <li><input type="checkbox">Heating|暖气</li>
+   <li><input type="checkbox">Kitchen|厨房</li>
+   <li><input type="checkbox">Internet|网络</li>
+   <li><input type="checkbox">Fire Place|壁炉</li>
+   <li><input type="checkbox">Washer|洗衣机</li>
+   <li><input type="checkbox">Dryer|烘干机</li>
+   <li><input type="checkbox">Microwave|微波炉</li>
+   <li><input type="checkbox">Dishwasher|洗碗机</li>
+   <li><input type="checkbox">Stove|烤箱</li>
+   <li><input type="checkbox">Storage|储物间</li>
+   <li><input type="checkbox">Balcony|阳台</li>
+   <li><input type="checkbox">Hot Tub|按摩浴缸</li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Building Amenities</br>楼内设施</span><br>Building amenities your listing may offer.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+   <li><input type="checkbox">Elevator|电梯</li>
+   <li><input type="checkbox">Laundry Facilty|洗衣房</li>
+   <li><input type="checkbox">Doorman|门卫</li>
+   <li><input type="checkbox">Intercome|可视监控</li>
+   <li><input type="checkbox">Patio/Roof Garden|庭院/屋顶花园</li>
+   <li><input type="checkbox">Yard|绿地</li>
+   <li><input type="checkbox">Gym|健身房</li>
+   <li><input type="checkbox">Pool|游泳池</li>
+   <li><input type="checkbox">Spa|水疗中心</li>
+   <li><input type="checkbox">Basketball Courts|篮球场</li>
+   <li><input type="checkbox">Tennis Courts|网球场</li>
+   <li><input type="checkbox" id="1">Direct Parking Available|停车位</li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Home Safety</br>安全设施</span></br>Safety equipment for your home. <!--Smoke and carbon monoxide detectors will be required for most listings by the end of 2014. Eligible hosts can get them free on our Home Safety Page. Restrictions apply.--></div>
+  <div class="form_container"><ul class="list_layout" id="Home_Safety">
+   <li><input type="checkbox">Smoke Detector|烟感器</li>
+   <li><input type="checkbox">Carbon Monoxide Detector|煤气感应器</li>
+   <li><input type="checkbox">First Aid Kit| 急救箱</li>
+   <li><input type="checkbox">Safety Card|安全卡</li>
+   <li><input type="checkbox">Fire Extinguisher|灭火器</li>
+   <li><input type="checkbox">Intercome|可视监控</li>
+   <li><input type="checkbox">Wheelchair Accessible|残疾人设施</li>
+  </div></div>
+  </div>
+  <!-- Self Description 现居住成员状况 开始-->
+<div class="form_page" id="self_description">
+    <div class="form_page_section">
+  <div class="form_title"><span>Applicant Information</br>求租者基本情况</span></br>Basic information about your roomates.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li>Total Applicant(s)|求租总人数</br><input list="total_members">
+       <datalist id="total_members">
+       <option value="0">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+       <option value="5">
+       <option value="6">
+       <option value="7">
+       <option value="8">
+       <option value="9">
+       <option value="10+">
+       </datalist></li>
+  <li>Age(s)|年龄分布</br><input list="ages_start">
+       <datalist id="ages_start">
+       <option value="Rather not to say|不愿透露"><option value="18"><option value="19"><option value="20"><option value="21"><option value="22">       
+       </datalist></br>-to-|-至-</br><input list="ages_end">
+       <datalist id="ages_end">
+       <option value="Rather not to say|不愿透露"><option value="18"><option value="19"><option value="20"><option value="21"><option value="22">       
+       </datalist></li>
+       
+  <li>Gender|性别及趋向</li>
+  <li><input type="checkbox">Straight male(s)|直男</li>
+  <li><input type="checkbox">Straight female(s)|直女</li>
+  <li><input type="checkbox">Gay male(s)|男同志</li>
+  <li><input type="checkbox">Lesbian(s)|蕾丝边</li>
+  <li><input type="checkbox">Bisexual(s)|双性恋</li>
+  <li><input type="checkbox">Rather not to say|暂不透露</li>      
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Occupation(s)</br>当前职业组成</span><br>Describe the tenants' occupation by checking the box.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li><input type="checkbox">Student|学生</li>
+  <li><input type="checkbox">Professional|上班</li>
+  <li><input type="checkbox">Traveler|旅行者</li>
+  <li><input type="checkbox">Visiting|探望者</li>
+  <li><input type="checkbox">Other|其他</li>
+  <li><input type="checkbox">Rather not to say|暂不透露</li>  
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Cleanliness</br>整洁度</span><br>Choose the level of how clean you are.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+     <li></br><input list="cleanliness">
+       <datalist id="cleanliness">
+       <option value="Rather not to say|不愿透露">
+       <option value="Clean freak|洁癖">
+       <option value="Quite clean|比较爱干净">
+       <option value="About Average|一般整洁">
+       <option value="A bit messy|相对杂乱">
+       <option value="Extremely messy|非常脏乱">
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Smoking</br>吸烟状况</span><br>The number of rooms and beds guests can access.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+     <li></br><input list="smoking">
+       <datalist id="smoking">
+       <option value="Rather not to say|不愿透露">
+       <option value="Non smoking|无吸烟者">
+       <option value="Outdoor smoking|室外吸烟">
+       <option value="Indoor smoking|室内吸烟">
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Children</br>是否含儿童</span></br>Number of children in the place.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+   <li></br><input list="children_r">
+       <datalist id="children_r">
+       <option value="Rather not to say|不愿透露">
+       <option value="No Children|租客中无儿童 ">
+       <option value="Yes there is|租客中有儿童">
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Applicant(s) Relationship</br>求租者间关系</span></br>Family/couple Info.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+       <li></br><input list="relationship_r">
+       <datalist id="relationship_r">
+       <option value="Rather not to say|不愿透露">
+       <option value="Friends|朋友">
+       <option value="Couple|情侣">
+       <option value="Family|家人">
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Party/Event</br>聚会情况</span></br>Describe your in-house parties life.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+       <li></br><input list="party_c">
+       <datalist id="party_c">
+       <option value="Rather not to say|不愿透露">
+       <option value="Rarely|无或极少在家搞聚会">
+       <option value="Sometimes|有时会在家搞聚会">
+       <option value="Often|经常在家搞聚会">
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Pets</br>宠物</span></br>Number and information of your pets.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+       <li><input type="checkbox">No Pets|无宠物</li> 
+       <li><input type="checkbox">Dogs|狗</li>
+       <li><input type="checkbox">Cats|猫</li>
+       <li><input type="checkbox">Caged Pets|笼内宠物</li>
+       <li><input type="checkbox">Rather not to say|暂不透露</li> 
+  </div></div>
+  </div> 
+ <div class="form_page" id="listing_info">
+<div class="form_page_section">
+  <div class="form_title"><span>Location</br>地点</span></br>Your exact address is private and only shared with guests after a reservation is confirmed.</div>
+  <div class="form_container"></br></br></br></br></br></br></br></br></br>
+  </div></div>
+  
+  <div class="form_page_section">
+  <div class="form_title"><span>Listing Info</br>出租信息</span></br>Basic information about your listing.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li>Home Type|出租类型</br><input list="home_type">
+       <datalist id="home_type">
+       <option value="Apartment|公寓楼">
+       <option value="House|别墅">
+       <option value="Dorm|宿舍">
+       </datalist></li>
+  <li>Floor|楼层</br><input list="floor">
+       <datalist id="floor">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+       <option value="5">
+       <option value="6">
+       <option value="7">
+       <option value="8">
+       <option value="9">
+       <option value="10">
+       <option value="11">
+       <option value="12">
+       <option value="13">
+       <option value="14">
+       <option value="15">
+       <option value="16">
+       <option value="17">
+       <option value="18">
+       <option value="19">
+       <option value="20">
+       <option value="21">
+       <option value="22">
+       <option value="23">
+       <option value="24">
+       <option value="25+">
+       </datalist></li>
+   <li>Room Type|出租部分</br><input list="room_type">
+       <datalist id="room_type">
+       <option value="Entire home|整套">
+       <option value="Private room|个人单间">
+       <option value="Shared room|多人同室">
+       </datalist></li>
+   <li><input list="room_use">
+       <datalist id="room_use">
+       <option value="Bedroom|卧室">
+       <option value="Living room|客厅">
+       <option value="Others|其它">
+       </datalist></li>    
+   <li>Accommodates|出租部分允许居住人数</br><input list="Accommodates">
+       <datalist id="Accommodates">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+        <option value="5">
+       <option value="6+">
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Rooms and Beds</br>房间与床位</span><br>The number of rooms and beds guests can access.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li>Bedrooms|卧室数量</br><input list="bedrooms">
+       <datalist id="bedrooms">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+       <option value="5+">
+       </datalist></li>
+  <li>Beds|床位</br><input list="beds">
+       <datalist id="beds">
+       <option value="1">
+       <option value="2">
+       <option value="3">
+       <option value="4">
+       <option value="5">
+       <option value="6">
+       <option value="7">
+       <option value="8">
+       <option value="9">
+       <option value="10+">
+       </datalist></li>
+   <li>Bathrooms|洗手间</br><input list="bathrooms">
+       <datalist id="bathrooms">
+       <option value="1">
+       <option value="1.5">
+       <option value="2">
+       <option value="2.5">
+       <option value="3">
+       <option value="3.5">
+       <option value="4">
+       <option value="4.5">
+       <option value="5+">
+       </datalist></li>
+
+  </div></div>
+  </div>
+<!-- Pricing 价格 开始-->
+<div class="form_page" id="budget">
+    <div class="form_page_section">
+  <div class="form_title"><span>Rent Budget</br>预算租金</span></br>The base price and default charging period.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li>美金$<input list="base_price">
+       <datalist id="base_price">
+       <option value="500"><option value="600"><option value="700"><option value="800"><option value="900">       
+       </datalist></br>-to--至-</br><input list="base_price"><datalist id="base_price">
+       <option value="500"><option value="600"><option value="700"><option value="800"><option value="900">       
+       </datalist></br>/<input list="period">
+       <datalist id="period">
+       <option value="night|晚"><option value="week|周"><option value="month|月"><option value="year|年">       
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+  <div class="form_title"><span>Total Upfront</br>入住预付总额上限</span></br>包括预付租金，押金，相关申请费及可能的其他一次性费用</div>
+  <div class="form_container"><ul class="list_layout" id="">
+   <li>入住预付总额上限</br><input list="uplimit"><datalist id="uplimit">
+       <option value="Any"><option value="5000"><option value="6000"><option value="7000"><option value="8000">       
+       </datalist></li>
+  </div></div>
+  </div>
+<!-- Calendar 出租日期 开始-->
+<div class="form_page" id="calendar_r">
+    <div class="form_page_section">
+  <div class="form_title"><span>Availability</br>何时可租</span></br>When your listing is available.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li>Availability Pattern|出租习惯<input list="availability_type">
+       <datalist id="availability_type">
+       <option value="Always|一直可租"><option value="Sometimes|某些时段"><option value="One time|仅这次">
+       </datalist></br>日期<input list="period">
+       <datalist id="period">
+       <option value="night|晚"><option value="week|周"><option value="month|月"><option value="year|年">       
+       </datalist></li>
+  </div></div>
+  </div>
+<!-- Photos 相册 开始-->
+<div class="form_page" id="photos">
+    <div class="form_page_section">
+  <div class="form_title"><span>Room Photos</br>出租部分相片</span></br>Pictures of the rented room.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li></br>Upload|上传<input list="availability_type">
+       <datalist id="availability_type">
+       <option value="Always|一直可租"><option value="Sometimes|某些时段"><option value="One time|仅这次">     
+       </datalist></li>
+  </div></div>
+    <div class="form_page_section">
+  <div class="form_title"><span>Unit Photos</br>单元内相片</span></br>Pictures of the rented room.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li></br>Upload|上传<input list="availability_type">
+       <datalist id="availability_type">
+       <option value="Always|一直可租"><option value="Sometimes|某些时段"><option value="One time|仅这次">     
+       </datalist></li>
+  </div></div>
+      <div class="form_page_section">
+  <div class="form_title"><span>Building Photos</br>楼内相片</span></br>Pictures of the rented room.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li></br>Upload|上传<input list="availability_type">
+       <datalist id="availability_type">
+       <option value="Always|一直可租"><option value="Sometimes|某些时段"><option value="One time|仅这次">     
+       </datalist></li>
+  </div></div>
+  <div class="form_page_section">
+    <div class="form_title"><span>Other Photos</br>室友/幼童/宠物相片</span></br>Pictures of the rented room.</div>
+  <div class="form_container"><ul class="list_layout" id="">
+  <li></br>Upload|上传<input list="availability_type">
+       <datalist id="availability_type">
+       <option value="Always|一直可租"><option value="Sometimes|某些时段"><option value="One time|仅这次">     
+       </datalist></li>
+  </div></div>
+  </div> 
+</body>
+</html>
