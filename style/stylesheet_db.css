@@ -1,0 +1,327 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Link Appearance Starts*/
+a:link {color:rgba(255,255,255,.8);}    /* unvisited link */
+a:visited {color:rgba(255,255,255,.8);} /* visited link */
+a:hover {color: rgba(255,138,35,.8);}   /* mouse over link */
+a:active {color: rgba(255,138,35,.8);}  /* selected link */
+a {text-decoration:none;}
+/* Link Appearance Ends*/
+
+body {
+	font-family: Century Gothic, Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	background: rgba(255,255,255,1);
+	background-image: url(../image/bg_ny_soho.jpg);
+	background-size: 100vw 100vh;
+	z-index: 100;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.page-content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: auto;
+	background-color:;
+	}
+#dashboard_content {
+	position: relative;
+	top: -150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: auto;
+	background-color: rgba(255,255,255,.4);
+	}
+/* Profile Pic Box Starts*/
+#profile_pic_box {
+	background-color: rgba(255,255,255,.9);
+	width: 190px;
+	height: 230px;
+    text-align: center;
+	}
+.profile_font {
+	font-size: 12px;
+}
+#profile_pic_container {
+	position: relative;
+	top: 15px;
+	left: 10px;
+	width: 170px;
+	height: 175px;
+    background-image: url(../image/self.jpg);
+	background-color: rgba(50,50,50,1);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+	}
+#profile_pic_box_button {
+	position: relative;
+	top: 13px;
+	color: #999;
+	}
+/* Profile Pic Box Ends*/
+/* Organization Logo Starts*/
+#organization_logo_box {
+	position: relative;
+	top: 10px;
+	background-color: rgba(255,255,255,.9);
+	width: 190px;
+	height: 230px;
+    text-align: center;
+	}
+#organization_logo_container {
+	position: relative;
+	top: 15px;
+	left: 10px;
+	width: 170px;
+	height: 175px;
+    background-image: url(../image/TCP_logo.jpg);
+	background-color: rgba(50,50,50,1);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% auto;
+	}
+/* Organization Logo Ends*/
+/* Market Index Starts */
+#market_rental_index {
+	position: relative;
+	float: right;
+	width: 760px;
+	height: 200px;
+	background: rgba(255,255,255,1);
+	top: -690px;
+	}
+/* Market Index Ends*/
+/* Listing Column Starts*/
+#listing_column {
+	position: relative;
+	float: right;
+	width: 760px;
+	height: 200px;
+	background: rgba(255,255,255,1);
+	top: -680px;
+	}
+/* Listing Column Ends */
+/* Finding Column Starts*/
+#finding_column {
+	position: relative;
+	float: right;
+	width: 760px;
+	height: 200px;
+	background: rgba(255,255,255,1);
+	top: -670px;
+	}
+/* Finding Column Ends */
+/* Verification Box Starts*/
+#verification_box {
+	position: relative;
+	top: 20px;
+	background-color: rgba(255,255,255,.9);
+	width: 190px;
+	height: 230px;
+    text-align: center;
+	}
+#verification_title {
+	height: 40px;
+	background-color: rgba(50,50,50,1); 
+	color: #CCC;	
+	}
+/* Verification Box Ends */
+/* Profile Starts*/
+#profile_content {
+	display: none;
+	position: relative;
+	top: -150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: auto;
+	background-color: rgba(255,255,255,.4);
+	}
+#profile_photos {
+	position: relative;
+	float: right;
+	width: 760px;
+	height: 200px;
+	background: rgba(255,255,255,1);
+	top: 0px;
+	}
+/* Profile Ends*/
+/* Inbox Starts*/
+#inbox_content {
+	display: none;
+	position: relative;
+	top: -150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: auto;
+	background-color: rgba(255,255,255,.4);
+	}
+/* Inbox Ends*/
+/* Account Starts*/
+#account_content {
+	display: none;
+	position: relative;
+	top: -150px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: auto;
+	background-color: rgba(255,255,255,.4);
+	}
+/* Account Ends*/
+/* Button Starts*/
+.button_h {
+	position: relative;
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 17px;
+	margin-right: 17px;
+	top: 50px; 
+	}
+.button_h:hover {
+	background-color: rgba(255,255,0,.9);
+	cursor: pointer;
+	}
+/* Button Ends*/
+#lg_content {
+	position: fixed;
+	height: auto;
+	z-index: 5;
+	left: 750px;
+	}
+.button_v {
+	position: relative;
+	display: list-item;
+	font-size: 12px;
+	margin: 10px; 
+	}
+.button_v:hover {
+	background-color: rgba(255,255,0,.9);
+	cursor: pointer;
+	}
+#list_your_place {
+	height: auto;
+	font-size: 14px;
+	font-weight: bold;
+	}
+#find_a_place {
+	height: auto;
+	font-size: 14px;
+	font-weight: bold;
+	}
+#listing_info {
+	}
+#amenities {
+	}
+#list_place_catalog {
+	display: none;	
+	}
+#find_place_catalog {
+	display: none;
+	}
+.form_page {
+	display: none;
+	position: relative;
+	left: 20px;
+	background-color: rgba(255,255,255,.9);
+	width: 600px;
+	height: auto;
+	top: -350px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+.form_page_section {
+	padding: 40px;
+	width: 520px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	}
+.form_title {
+	position: absolute;
+	display: inline-block;
+	width: 220px;
+	height: auto;
+	background-color: ;
+	margin: 0px;
+	font-size: 14px;
+	}
+.form_title span {
+	font-size: 24px;
+	font-weight: bold;
+	}
+.form_container {
+	position: relative;
+	display: inline-block;
+	width: auto;
+	height: auto;
+	left: 200px;
+	line-height: 250%;
+	margin-left: 40px;
+	background-color: ;
+	font-size: 14px;
+	}
+	
+.list_layout ul{
+	}
+.list_layout li {
+	font-size: 14px;
+	list-style: none;
+	}	
+#strap_horizotal {
+	position: relative;
+	width: 600px;
+	height: 80px;
+	left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(255,255,255,.9);
+	z-index: 2;
+	}
+#list_strap_vertical{
+	position: relative;
+	width: 190px;
+	height: auto;
+	left: ;
+	top: -140px;
+	background-color: rgba(255,255,255,.9);
+	z-index: 1;
+	}
+#logo {
+	display: block;
+	text-align: center;
+	background-image: url(../image/logo.png);
+	background-color: rgba(255,255,255,.9);
+	top: -80px;
+	position: relative;
+	height: 80px;
+	width: 190px;
+	font-weight: bold;
+	font-size: 24px;
+	color: rgba(20,20,20,.85);
+	}
+#logo span {
+	position: relative;
+	top: 8px;
+	left: 45px;
+	}
+#time {
+	background-color: rgba(255,255,0,.9);
+	position: relative;
+	width: 150px;
+	height: 80px;
+	text-align: center;
+	left: 810px;
+	top: -160px;
+	font-size: 15px;
+	}
+/* background-color: rgba(106,71,171,.8);*/
